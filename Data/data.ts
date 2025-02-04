@@ -16,21 +16,21 @@ export const servicesData = [
     id: 1,
     title: "React Development",
     description: "Building seamless web experiences with React.",
-    // icon: <"/images/s1.png">,
+    icon: "",
   },
   {
     id: 2,
     title: "UI/UX Design",
     description:
       "Creating intuitive and visually appealing user interfaces.",
-    // icon: "/images/s2.png",
+    icon: "",
   },
   {
     id: 3,
     title: "Code Optimization",
     description:
       "Writing clean, maintainable, and efficient code.",
-    // icon: "/images/s3.png",
+    icon: "",
   },
 ];
 
