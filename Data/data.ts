@@ -40,6 +40,21 @@ export const projectData = [
     image: "",
     url: "",
   },
+  {
+    id: 2,
+    image: "",
+    url: "",
+  },
+  {
+    id: 3,
+    image: "",
+    url: "",
+  },
+  {
+    id: 4,
+    image: "",
+    url: "",
+  },
 ];
 
 export const skillsData = [
