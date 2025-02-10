@@ -102,14 +102,12 @@ export const skillsData = [
 
 
 
-export const blogs = [
+export const spotlight = [
   {
     id: 1,
     title: "",
-    summary:
-      "",
-    date: "",
-    image: "",
+    summary: "",
+    image: "/images/demo.png",
   },
 ];
 
