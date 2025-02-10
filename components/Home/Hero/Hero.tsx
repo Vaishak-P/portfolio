@@ -13,7 +13,7 @@ const Hero = () => {
             <h1 className="text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold">
               {BaseInfo.name}
             </h1>
-            t{/* //text-bg is custom class defined on globals.css  */}
+            {/* //text-bg is custom class defined on globals.css  */}
             <h1
               className="text-bg text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold 
                     md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white"
