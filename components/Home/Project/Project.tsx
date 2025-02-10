@@ -16,13 +16,13 @@ const Project = () => {
               className="bg-blue-900 p-6 rounded-lg hover:scale-105 transition-all duration-300"
             >
               <Link href={project.url} target="_blank">
-                <Image
+                {/* <Image
                   src={project.image}
                   alt="project"
                   className="w-full"
                   height={300}
                   width={300}
-                ></Image>
+                /> */}
               </Link>
             </div>
           );
