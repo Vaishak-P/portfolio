@@ -15,7 +15,16 @@
     -webkit-text-fill-color:transparent;
   }
 }
-
+.custom-scrollbar::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb{
+  background: rgb(0, 101, 84);
+}
+.custom-scrollbar::-webkit-scrollbar-track{
+  background: rgb(4, 222, 186);
+}
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
