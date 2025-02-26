@@ -26,14 +26,14 @@ const Nav = ({openNav}:Props) => {
     };
   },[]);
   return (
-    <div className={`fixed ${navBg ? "bg-blue-800":"bg-gray-800"} h-[12vh] z-[10]  w-full transition-all duration-200`}>
+    <div className={`fixed ${navBg ? "bg-primary/80":"bg-highDark"} backdrop-blur-lg h-[12vh] z-[10]  w-full transition-all duration-200`}>
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-80% mx-auto">
         {/* LOGO  */}
         <Image 
           src="/images/logo.png"
           alt="LOGO"
-          width={170}
-          height={170}
+          width={100}
+          height={100}
           className="ml-[-1.5rem] sm:ml-[0]"
         />
         {/* Nav Links  */}
@@ -49,12 +49,14 @@ const Nav = ({openNav}:Props) => {
           </div>
           {/* Button */}
           <div className='flex items-center space-x-4'>
-            <button className='md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white
-            hover:bg-gray-200 transition-all duration-200 rounded-lg'>
-                Hire Me
-            </button>
+            <a href='mailto:vaishakpanakkat@gmail.com?subject=Hiring&body=Hi Vaishak, I would like to hire you for my project.'>
+              <button className='md:px-10 md:py-2 px-8 py-3 text-primary font-semibold sm:text-base text-sm bg-lowWhite
+              hover:text-lowWhite hover:bg-primary hover:border-lowWhite hover:border-2 transition-all duration-200 rounded-lg'>
+                  Hire Me 
+              </button>
+            </a>
             {/* Burger  */}
-            <HiBars3BottomRight onClick={openNav} className='w-8 h-8 cursor-pointer lg:hidden text-white'/>
+            <HiBars3BottomRight onClick={openNav} className='w-8 h-8 cursor-pointer lg:hidden text-lowWhite'/>
 
           </div>
         </div>
