@@ -5,8 +5,13 @@ type Props={
 }
 const SectionHeading = ({children}:Props) => {
   return (
-    <h1 className='bg-blue-800 w-fit text-center px-4 py-3 mx-auto text-white text-2xl sm:text-3xl uppercase -rotate-6'>{children}</h1>
-  )
+    <h1
+      className="font-bold bg-secondary w-fit text-center px-8 py-3 mx-auto text-lowDark text-2xl sm:text-3xl uppercase rounded-full "
+      data-aos="zoom-out-up"
+    >
+      {children}
+    </h1>
+  );
 }
 
 export default SectionHeading
