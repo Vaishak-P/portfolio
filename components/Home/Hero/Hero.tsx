@@ -12,6 +12,9 @@ const Hero = () => {
           <div>
             <h1
               data-aos="fade-left"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="500"
+              data-aos-delay="200"
               className="text-2xl md:text-3xl lg:text-4xl mb-5 text-lowWhite font-semibold"
             >
               {BaseInfo.name}
@@ -19,7 +22,9 @@ const Hero = () => {
             {/* //text-bg is custom class defined on globals.css  */}
             <h1
               data-aos="fade-right"
-              data-aos-delay="100"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="500"
+              data-aos-delay="400"
               className="text-bg text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold 
                     md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-lowWhite"
             >
@@ -27,15 +32,19 @@ const Hero = () => {
             </h1>
             <p
               data-aos="fade-left"
-              data-aos-delay="200"
-              className="mt-6 text-sm md:text-base text-lowWhite text-opacity-60"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="500"
+              data-aos-delay="600"
+              className="mt-6 text-sm md:text-base text-lowWhite text-opacity-80"
             >
               {BaseInfo.description}
             </p>
             <a href="/Resume.pdf" download="Vaishak_P_Resume.pdf">
               <button
-                data-aos="zoom-in"
-                data-aos-delay="300"
+                data-aos="fade-right"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="500"
+                data-aos-delay="800"
                 className="md:px-8 md:py-2.5 px-6 py-1.5 text-lowWhite font-semibold text-sm md:text-lg
              transition-all duration-200 rounded-lg mt-8 bg-primary hover:bg-secondary hover:text-highDark flex items-center gap-x-3"
               >

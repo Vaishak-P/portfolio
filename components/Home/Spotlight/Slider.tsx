@@ -29,12 +29,15 @@ const Slider = () => {
     <Carousel
       arrows={true}
       autoPlay={true}
-      autoPlaySpeed={5000}
-      infinite 
+      autoPlaySpeed={3000}
+      infinite
       responsive={responsive}
     >
       {spotlight.map((spotlight)=>{
-        return <div key={spotlight.id}>
+        return <div key={spotlight.id}
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
             <SpotlightCard spotlight={spotlight}/>
         </div>
       })}

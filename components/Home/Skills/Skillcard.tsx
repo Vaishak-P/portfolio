@@ -12,16 +12,16 @@ const SkillCard = ({ skill }: Props) => {
   const { image, title } = skill;
   return (
     <div
-      className="p-6 hover:bg-blue-800 duration-300 transition-all cursor-pointer text-center rounded-lg
-    bg-gray-800"
+      className="p-6 hover:bg-primary duration-300 transition-all cursor-pointer text-center rounded-lg
+    bg-lowDark"
     >
-      {/* <Image
+      <Image
         src={image}
         alt={title}
-        width={80}
-        height={80}
-        className="object-cover mx-auto"
-      /> */}
+        width={50}
+        height={50}
+        className="object-cover mx-auto filter invert"
+      />
       <h1 className="text-[18px] mt-4 text-white font-[600]">{title}</h1>
     </div>
   );
