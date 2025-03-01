@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 
 const Home = () => {
   useEffect(() => {
-    const initAOSasync =async () => {
+    const initAOSasync = async () => {
       await import("aos");
       AOS.init({
         duration:1000,
@@ -22,7 +22,7 @@ const Home = () => {
         anchorPlacement:'top-bottom',
       });
     };
-    AOS.init();
+    initAOSasync();
   },[]);
   return (
     <div>

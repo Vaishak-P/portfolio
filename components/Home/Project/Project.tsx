@@ -3,14 +3,14 @@ import { projectData } from '@/Data/data'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-type Props = {
-  project:{
-    id:number;
-    title:string;
-    image:string;
-    url:string;
-  }
-}
+// type Props = {
+//   project:{
+//     id:number;
+//     title:string;
+//     image:string;
+//     url:string;
+//   }
+// }
 
 const Project = () => {
   return (
